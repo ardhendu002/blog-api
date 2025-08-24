@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 
-mongoose.connect("mongodb+srv://ardhendumishra2006:subham002@cluster0.pdhy5so.mongodb.net/");
+mongoose.connect("");
 
 const schema = new mongoose.Schema({
     tittle: String,
